@@ -1,0 +1,24 @@
+{
+  "name": "terminal-escape",
+  "version": "1.0.0",
+  "description": "simple game in terminal",
+  "main": "play.js",
+  "scripts": {
+    "test": "mocha spec",
+    "start": "node play2.js",
+    "sample": "node sample/play.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theCodeFox/terminal-escape.git"
+  },
+  "author": "theCodeFox and shobbsd",
+  "homepage": "https://github.com/theCodeFox/terminal-escape#readme",
+  "dependencies": {
+    "inquirer": "^6.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
